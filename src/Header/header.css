@@ -1,0 +1,22 @@
+.header{
+    background-image: url(../Assets/images/fon1.jpg);
+   height: 500px;
+}
+ul li{
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+color: #FDFEFF;
+}
+.btn{
+    height: 45px;
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+
+}
