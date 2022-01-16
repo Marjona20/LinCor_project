@@ -1,15 +1,27 @@
-import Header from "./Header/header";
-import Tests from "./Section2/section2";
-import Solution from "./Solution";
+import React from 'react';
+import './App.css';
+import 'antd/dist/antd.css';
 
+import AppHeader from './components/common/header';
+import AppFooter from './components/common/footer';
+import AppHome from './views/home';
+
+import { Layout } from 'antd';
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
-    <div>
-      {/* <Solution />
-      <Tests /> */}
-    <Header />
-    </div>
+    <Layout className="mainLayout">
+      <Header>
+        <AppHeader/>
+      </Header>
+      <Content>
+        <AppHome/>
+      </Content>
+      <Footer>
+        <AppFooter/>  
+      </Footer>      
+    </Layout>
   );
 }
 
