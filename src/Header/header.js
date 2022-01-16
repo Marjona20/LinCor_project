@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../assets/images/logo-1.png';
+import logo from '../assets/images/logo-1.png';
 import { Anchor, Drawer, Button } from 'antd';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,11 +17,11 @@ function AppHeader() {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="">
       <div className="header">
         <div className="mobileHidden">
           <Anchor targetOffset="65">
-          <div className="me-5">
+          <div className="me-5 ms-5">
           <img src={logo} style={{width:'130px', height:'40px'}}  alt=""></img>
         </div>
             <div className="h-div ms-5 me-5">
@@ -32,15 +32,15 @@ function AppHeader() {
             <Link href="/home" title="To'lov" />
             <Link href="/home" title="Biz haqimizda" />
             </div>
-            <div className="h-div ms-5">
-            <Link href="/home" title="Kirish" />
-            <Button className="btn-secondary"><Link href="/home" title="Registratsiya" /></Button>
+            <div className="h-div ms-5 me-5 pe-5">
+            <Link className="me-5" href="/home" title="Kirish" />
+            <Button className="btn-secondary me-5 pe-5"><Link href="/home" title="Registratsiya" /></Button>
           </div>
           </Anchor>
         </div>
         <div className="mobileVisible">
         <div className="d-flex fa-align-center">
-         <Button className="me-5" type="primary" onClick={showDrawer}>
+         <Button className="me-5" type="white" onClick={showDrawer}>
             <i className="fas fa-bars"></i>
           </Button>
           <img className="ms-5 me-5" src={logo} style={{width:'150px', height:'50px'}}  alt="logo"></img>
