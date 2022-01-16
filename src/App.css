@@ -133,7 +133,7 @@ section1
 */
 .section1{
   height:500px;
-  background-image: url(../src/assets/images/fon1.jpg);
+  background-image: url(../src/Assets/images/fon1.jpg);
 }
 .div1{
 background: rgba(173, 173, 173, 0.15);
