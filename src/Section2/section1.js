@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import video from '../assets/images/video.png';
-import mens from  '../assets/images/mens.png';
+import video from '../Assets/images/video.png';
+import mens from  '../Assets/images/mens.png';
 
 function AppSection1() {
   return (
