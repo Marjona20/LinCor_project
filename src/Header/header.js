@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/images/logo-1.png';
+import logo from '../Assets/images/logo-1.png';
 import { Anchor, Drawer, Button } from 'antd';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
